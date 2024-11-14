@@ -3,82 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minahal Aisha's Portfolio</title>
+    <title>Minahal Aisha | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <img src="profile.jpg" alt="Minahal Aisha" class="profile-pic">
-        <h1>Hello! I'm Minahal Aisha</h1>
-        <p>Curious problem-solver passionate about turning complex challenges into structured solutions. My work spans AI, data analysis, and software engineering.</p>
+        <h1>Minahal Aisha</h1>
+        <p>Computer Science Student | Problem Solver | AI Enthusiast</p>
         <div class="contact-info">
-            <a href="mailto:vnc9uv@virginia.edu">vnc9uv@virginia.edu</a> |
-            <a href="https://linkedin.com/in/minahal" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/MinahalAisha" target="_blank">GitHub</a>
+            <a href="mailto:vnc9uv@virginia.edu"><i class="fas fa-envelope"></i> vnc9uv@virginia.edu</a>
+            <a href="https://linkedin.com/in/minahal" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/MinahalAisha" target="_blank"><i class="fab fa-github"></i> GitHub</a>
         </div>
     </header>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>University of Virginia, School of Engineering and Applied Science</strong><br>
-        Bachelor of Science in Computer Science | GPA: 3.77</p>
-    </section>
+    <!-- Grid Layout for Content -->
+    <div class="grid-container">
 
-    <section id="experience">
-        <h2>Experience</h2>
-        
-        <div class="experience-item">
-            <h3><a href="https://biocomplexity.virginia.edu/" target="_blank">Student Researcher, Biocomplexity Institute @ UVA</a></h3>
-            <p><em>Charlottesville, VA | Aug. 2021 – May 2025, June 2024 – Present</em></p>
-            <ul>
-                <li>Collaborate on a hospital digital twin project by developing a filtering algorithm to clean 10,000+ patient records from the MIMIC-IV dataset, focusing on ICD code hierarchies.</li>
-                <li>Build graph dynamical systems to model patient outcomes and resource allocation.</li>
-                <li>Conduct structural uncertainty analyses, enhancing model accuracy by identifying key dependencies.</li>
-                <li>Document processes and implement Python scripts for data processing and state vector analysis.</li>
-            </ul>
-        </div>
+        <!-- Education Section -->
+        <section class="grid-item">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <p><strong>University of Virginia, School of Engineering and Applied Science</strong><br>
+            Bachelor of Science in Computer Science | GPA: 3.77</p>
+        </section>
 
-        <div class="experience-item">
-            <h3><a href="https://commerce.virginia.edu/" target="_blank">Teaching Assistant, COMM 3220 @ UVA McIntire School of Commerce</a></h3>
-            <p><em>Charlottesville, VA | August 2024 – Present</em></p>
-            <ul>
-                <li>Grade 90+ ERD and SQL assignments weekly, ensuring consistency and accuracy across submissions.</li>
-                <li>Use Power BI to evaluate and provide feedback on student data visualizations.</li>
-                <li>Evaluate 30+ application-based projects weekly, helping students improve query performance and database design.</li>
-            </ul>
-        </div>
+        <!-- Skills Section -->
+        <section class="grid-item">
+            <h2><i class="fas fa-laptop-code"></i> Technical Skills</h2>
+            <p><i class="fab fa-aws"></i> AWS Certified Cloud Practitioner</p>
+            <p>Languages: Java, Python, C/C++, SQL, JavaScript</p>
+            <p>Frameworks: Django, React, Node.js</p>
+        </section>
 
-        <!-- Add additional experiences here similarly -->
-    </section>
+        <!-- Experience Section -->
+        <section class="grid-item">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        
-        <div class="project-item">
-            <h3>Barbell Tracker Camera App</h3>
-            <p>A React Native mobile app to help athletes track barbell paths in real-time during lifts. Includes video export functionality with dynamic path overlays.</p>
-            <ul>
-                <li>Tools: React Native, Expo, Node.js</li>
-                <li><a href="uploads/Barbell Tracker.zip" download>Download Project Files</a></li>
-            </ul>
-        </div>
+            <div class="experience-item">
+                <h3><a href="https://biocomplexity.virginia.edu/" target="_blank">Student Researcher, Biocomplexity Institute @ UVA</a></h3>
+                <p>Developed a filtering algorithm to clean patient records, modeled outcomes, and ran structural analyses to refine ICU predictions.</p>
+            </div>
 
-        <div class="project-item">
-            <h3>Mapping Wildlife Collisions</h3>
-            <p>A collaborative project with <a href="https://codeforcharlottesville.org/" target="_blank">Code for Charlottesville</a> using ArcGIS to develop a StoryMap for 1,000+ wildlife-vehicle collisions to assist policy recommendations.</p>
-            <ul>
-                <li>Tools: ArcGIS, Python, Data Pipeline</li>
-            </ul>
-        </div>
-    </section>
+            <div class="experience-item">
+                <h3><a href="https://commerce.virginia.edu/" target="_blank">Teaching Assistant, COMM 3220 @ UVA McIntire</a></h3>
+                <p>Graded ERD/SQL assignments and provided feedback on data visualizations, supporting over 90 students weekly.</p>
+            </div>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <p><strong>Languages:</strong> Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R</p>
-        <p><strong>Frameworks:</strong> Django, React, Node.js, Flask</p>
-        <p><strong>Tools:</strong> Git, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, Jupyter Notebook, ArcGIS</p>
-        <p><strong>Libraries:</strong> pandas, NumPy, Matplotlib</p>
-        <p><strong>Certifications:</strong> <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">AWS Certified Cloud Practitioner</a></p>
-    </section>
+            <div class="experience-item">
+                <h3><a href="https://www.growprogress.com/" target="_blank">Tech Fellow, Grow Progress</a></h3>
+                <p>Built a tagging system for message categorization, streamlining analysis across 4,000+ messages.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="grid-item">
+            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+
+            <div class="project-item">
+                <h3>Barbell Tracker Camera App</h3>
+                <p>Real-time motion tracking app for athletes. <a href="uploads/Barbell Tracker.zip" download><i class="fas fa-download"></i> Download</a></p>
+            </div>
+
+            <div class="project-item">
+                <h3>Mapping Wildlife Collisions</h3>
+                <p>Data pipeline integrating wildlife collision records for policy mapping.</p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
