@@ -110,6 +110,14 @@ strong {
     color: #333;
 }
 
+/* Introduction Section Customization */
+.introduction {
+    max-width: 750px; /* Slightly wider for longer line length */
+    margin: 1.5em auto;
+    line-height: 1.8; /* Slightly increased for readability */
+    text-align: left;
+}
+
 /* Responsive Layout for Larger Screens */
 @media (min-width: 768px) {
     .grid-container {
