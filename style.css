@@ -82,6 +82,17 @@ h2 {
     font-size: 1.2em;
 }
 
+.experience-item ul {
+    margin: 0;
+    padding-left: 1em;
+    list-style-type: disc;
+}
+
+.experience-item ul li {
+    margin: 0.5em 0;
+    color: #666;
+}
+
 a {
     color: #5a0e82;
     text-decoration: none;
@@ -93,6 +104,10 @@ a:hover {
 
 i {
     margin-right: 0.5em;
+}
+
+strong {
+    color: #333;
 }
 
 /* Responsive Layout for Larger Screens */
