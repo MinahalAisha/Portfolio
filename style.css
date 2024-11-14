@@ -52,20 +52,24 @@ h2 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     gap: 2em;
     max-width: 1200px;
     margin: 2em auto;
     padding: 1em;
 }
 
-.grid-item {
+.grid-item, .grid-item-full {
     background-color: white;
     padding: 1.5em;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
+}
+
+.grid-item-full {
+    grid-column: span 2;
 }
 
 .experience-item, .project-item {
@@ -89,4 +93,11 @@ a:hover {
 
 i {
     margin-right: 0.5em;
+}
+
+/* Responsive Layout for Larger Screens */
+@media (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
