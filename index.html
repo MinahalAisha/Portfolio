@@ -7,49 +7,78 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header and About Section -->
     <header>
-        <h1>Minahal Aisha's Portfolio</h1>
+        <img src="profile.jpg" alt="Minahal Aisha" class="profile-pic">
+        <h1>Hello! I'm Minahal Aisha</h1>
+        <p>Curious problem-solver passionate about turning complex challenges into structured solutions. My work spans AI, data analysis, and software engineering.</p>
+        <div class="contact-info">
+            <a href="mailto:vnc9uv@virginia.edu">vnc9uv@virginia.edu</a> |
+            <a href="https://linkedin.com/in/minahal" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/MinahalAisha" target="_blank">GitHub</a>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a curious and driven problem solver with a passion for breaking down complex challenges and finding innovative solutions. With a strong foundation in computer science and hands-on experience in AI/ML, data analysis, and project management, I’m excited to bring creativity and precision to each project I tackle.</p>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>University of Virginia, School of Engineering and Applied Science</strong><br>
+        Bachelor of Science in Computer Science | GPA: 3.77</p>
     </section>
 
-    <!-- Projects Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        
+        <div class="experience-item">
+            <h3><a href="https://biocomplexity.virginia.edu/" target="_blank">Student Researcher, Biocomplexity Institute @ UVA</a></h3>
+            <p><em>Charlottesville, VA | Aug. 2021 – May 2025, June 2024 – Present</em></p>
+            <ul>
+                <li>Collaborate on a hospital digital twin project by developing a filtering algorithm to clean 10,000+ patient records from the MIMIC-IV dataset, focusing on ICD code hierarchies.</li>
+                <li>Build graph dynamical systems to model patient outcomes and resource allocation.</li>
+                <li>Conduct structural uncertainty analyses, enhancing model accuracy by identifying key dependencies.</li>
+                <li>Document processes and implement Python scripts for data processing and state vector analysis.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3><a href="https://commerce.virginia.edu/" target="_blank">Teaching Assistant, COMM 3220 @ UVA McIntire School of Commerce</a></h3>
+            <p><em>Charlottesville, VA | August 2024 – Present</em></p>
+            <ul>
+                <li>Grade 90+ ERD and SQL assignments weekly, ensuring consistency and accuracy across submissions.</li>
+                <li>Use Power BI to evaluate and provide feedback on student data visualizations.</li>
+                <li>Evaluate 30+ application-based projects weekly, helping students improve query performance and database design.</li>
+            </ul>
+        </div>
+
+        <!-- Add additional experiences here similarly -->
+    </section>
+
     <section id="projects">
         <h2>Projects</h2>
-
-        <!-- Project 1: Barbell Tracker Camera App -->
-        <div class="project">
+        
+        <div class="project-item">
             <h3>Barbell Tracker Camera App</h3>
-            <p>A React Native mobile app built to assist athletes in tracking barbell paths during lifts. 
-               It uses real-time motion detection algorithms to monitor the barbell’s path and includes a video export functionality with dynamic bar path overlays for performance analysis.</p>
-            <h4>Tools Used:</h4>
+            <p>A React Native mobile app to help athletes track barbell paths in real-time during lifts. Includes video export functionality with dynamic path overlays.</p>
             <ul>
-                <li>React Native</li>
-                <li>Expo</li>
-                <li>Node.js</li>
+                <li>Tools: React Native, Expo, Node.js</li>
+                <li><a href="uploads/Barbell Tracker.zip" download>Download Project Files</a></li>
             </ul>
-            <div class="download-section">
-                <a href="uploads/Barbell Tracker.zip" class="download-button">Download Project Files</a>
-            </div>
         </div>
 
-        <!-- Project 2: Food Bank Volunteer Tracking System -->
-        <div class="project">
-            <h3>Food Bank Volunteer Tracking System</h3>
-            <p>A database system designed to streamline volunteer coordination for food banks. This project involved developing a comprehensive database to manage volunteer information and schedules, enhancing the efficiency and organization of food bank operations.</p>
-            <h4>Tools Used:</h4>
+        <div class="project-item">
+            <h3>Mapping Wildlife Collisions</h3>
+            <p>A collaborative project with <a href="https://codeforcharlottesville.org/" target="_blank">Code for Charlottesville</a> using ArcGIS to develop a StoryMap for 1,000+ wildlife-vehicle collisions to assist policy recommendations.</p>
             <ul>
-                <li>Python</li>
-                <li>Django</li>
-                <li>PostgreSQL</li>
+                <li>Tools: ArcGIS, Python, Data Pipeline</li>
             </ul>
-            <div class="download-section">
-                <a href="uploads/Foodbank Database.zip" class="download-button">Download Project Files</a>
-            </div>
         </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <p><strong>Languages:</strong> Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R</p>
+        <p><strong>Frameworks:</strong> Django, React, Node.js, Flask</p>
+        <p><strong>Tools:</strong> Git, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, Jupyter Notebook, ArcGIS</p>
+        <p><strong>Libraries:</strong> pandas, NumPy, Matplotlib</p>
+        <p><strong>Certifications:</strong> <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">AWS Certified Cloud Practitioner</a></p>
     </section>
 </body>
 </html>
