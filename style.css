@@ -112,11 +112,13 @@ strong {
 
 
 .introduction {
-    max-width: 2100px; 
+    width: 90%; /* Adjust the percentage for your desired width */
+    max-width: 1200px; /* Increase this value to set a higher maximum cap */
     margin: 1.5em auto;
-    line-height: 1.8; 
-    text-align: center;
+    line-height: 1.8; /* Keeps readability intact */
+    text-align: center; /* Ensures text remains centered */
 }
+
 
 /* Responsive Layout for Larger Screens */
 @media (min-width: 768px) {
